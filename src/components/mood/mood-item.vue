@@ -3,7 +3,7 @@
         <div class="mood-h">
             <div class="mood-h-l">
                 <div class="mood-item-picwrap">
-                <img :src="itemData.userPic" class="mood-item-pic"></div>
+                <img :src="itemData.userPic?itemData.userPic:'../../static/img/1.jpg'" class="mood-item-pic"></div>
                 <span class="mood-name">{{itemData.name}}</span>
                 <span class="mood-time">({{itemData.time}})</span>
             </div>

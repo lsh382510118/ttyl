@@ -9,12 +9,18 @@ import study from '@/pages/study';
 import mine from '@/pages/mine';
 import work from '@/pages/work';
 import life from '@/pages/life';
+import forTT from '@/pages/forTT';
 Vue.use(Router)
 
 export default new Router({
   routes: [{
       path: '/',
       redirect:'/mood'
+    },
+    {
+      path: '/forTT',
+      name: 'forTT',
+      component: forTT
     },
     {
       path: '/work',

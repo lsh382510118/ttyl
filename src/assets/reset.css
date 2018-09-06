@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box
+}
+body,h1,h2,h3,h4,h5,h6,p,ol,ul{
+    margin: 0;
+}
+ol,ul{
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+em{
+    font-style:normal;
+}
+table{
+    border-collapse:collapse;
+    border-spacing:0;   
+}
+
+
+.clear:after{
+   content: '';
+   display: inline-block;
+   width: 0;
+   height: 0;
+   overflow: hidden;
+   clear: both;
+}
+
+/*滚动条loading start*/
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece {
+  width: 8px;
+  height: 10px;
+  border-radius: 0px;
+  background: rgba(100, 100, 100, 0.0);
+}
+
+::-webkit-scrollbar:hover {
+  border-radius: 0px;
+  background: rgba(100, 100, 100, 0.1);
+  cursor: all-scroll;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 10px;
+  width: 8px;
+  border-radius: 6px;
+  background: rgba(180, 180, 180, 0.3);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(180, 180, 180, 0.7);
+}

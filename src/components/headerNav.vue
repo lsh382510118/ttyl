@@ -22,6 +22,7 @@ export default {
     return {
       title: "TTYL",
       navList: [
+        { name: "学习作业", path: "/forTT", index: "0" },
         { name: "每日心情", path: "/mood", index: "1" },
         { name: "生活杂语", path: "/life", index: "2" },
         { name: "学习历程", path: "/study", index: "3" },

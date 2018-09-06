@@ -1,0 +1,20 @@
+{
+	"taskList": [
+        {
+			"time": "09月06日 14:55",
+			"name": "tt",
+			"content": "这次的任务，主要是学会用axios请求本地数据,你看下心情模块下面的,moodList是由axios发出get请求json获取到的,而你的学习步骤： ",
+            "step":[
+                {
+                    "index":"1",
+                    "txt":"1.如何引入axios;"
+                },
+                {
+                    "index":"2",
+                    "txt":"2.axios如何使用;"
+                }
+                
+            ]
+        }
+	]
+}
