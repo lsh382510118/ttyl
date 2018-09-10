@@ -16,6 +16,15 @@ export default {
   },
   components: {
     headerNav: headerNav
+  },
+  watch:{
+    // '$route'(to , from) {
+    //       console.log(this)
+    //       console.log(this.$router)
+    //       console.log(this.$route)
+    //       console.log(to);
+    //       console.log(from);
+    // }
   }
 };
 </script>

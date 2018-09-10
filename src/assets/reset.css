@@ -19,7 +19,12 @@ table{
     border-spacing:0;   
 }
 
-
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
 .clear:after{
    content: '';
    display: inline-block;

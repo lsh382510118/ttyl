@@ -1,9 +1,29 @@
 {
 	"taskList": [
         {
+			"time": "09月10日 10:44",
+            "name": "tt",
+            "title": "路由嵌套",
+            "content": "路由的基础使用，你已经会了，那么现在就稍微进阶一下 --- 路由嵌套路由,而你的学习步骤： ",
+            "api": "https://router.vuejs.org/zh/guide/essentials/nested-routes.html",
+            "step":[
+                {
+                    "index":"1",
+                    "txt":"1.路由配置;"
+                },
+                {
+                    "index":"2",
+                    "txt":"2.布局配置;"
+                }
+                
+            ]
+        },
+        {
 			"time": "09月06日 14:55",
-			"name": "tt",
-			"content": "这次的任务，主要是学会用axios请求本地数据,你看下心情模块下面的,moodList是由axios发出get请求json获取到的,而你的学习步骤： ",
+            "name": "tt",
+            "title": "axios 初级使用",
+            "content": "这次的任务，主要是学会用axios请求本地数据,你看下心情模块下面的,moodList是由axios发出get请求json获取到的,而你的学习步骤： ",
+            "api": "https://www.jianshu.com/p/df464b26ae58",
             "step":[
                 {
                     "index":"1",

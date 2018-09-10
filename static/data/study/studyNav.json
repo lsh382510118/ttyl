@@ -1,0 +1,70 @@
+{
+	"studyNav": [
+        {
+            "label": "CSS",
+            "ico":"el-icon-location",
+            "index":"1",
+            "children": [
+                {
+                    "label" : "css",
+                    "path":"/study/Css"
+                }
+            ]
+        },
+        {
+            "label": "HTML",
+            "ico":"el-icon-menu",
+            "index":"2",
+            "children": [
+                {
+                    "label" : "html",
+                    "path":"/study/Html"
+                }
+            ]
+        },
+        {
+            "label": "JavaString",
+            "ico":"el-icon-menu",
+            "index":"3",
+            "children": [
+                {
+                    "label" : "JavaString",
+                    "path":"/study/Js"
+                }
+            ]
+        },
+        {
+            "label": "ES6",
+            "index":"4",
+            "ico":"el-icon-menu",
+            "children": [
+                {
+                    "label" : "ES6",
+                    "path":"/study/ES6"
+                }
+            ]
+        },
+        {
+            "label": "VueJS",
+            "ico":"el-icon-document",
+            "index":"5",
+            "children": [
+                {
+                    "label" : "Vue",
+                    "path":"/study/VuePage"
+                }
+            ]
+        },
+        {
+            "label": "Other",
+            "index":"6",
+            "ico":"el-icon-setting",
+            "children": [
+                {
+                    "label" : "other",
+                    "path":"/study/Other"
+                }
+            ]
+        }
+	]
+}

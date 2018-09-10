@@ -4,18 +4,23 @@ import HelloWorld from '@/components/HelloWorld';
 
 
 
-import mood from '@/pages/mood';
-import study from '@/pages/study';
+import mood from './mood/mood01';
+import study from './study/study';
 import mine from '@/pages/mine';
 import work from '@/pages/work';
 import life from '@/pages/life';
 import forTT from '@/pages/forTT';
-Vue.use(Router)
 
-export default new Router({
-  routes: [{
+
+
+
+Vue.use(Router)
+let router;
+export default router = new Router({
+  routes: [
+    {
       path: '/',
-      redirect:'/mood'
+      redirect:'/mood',
     },
     {
       path: '/forTT',
@@ -36,16 +41,13 @@ export default new Router({
       path: '/mine',
       name: 'mine',
       component: mine
-    },
-    {
-      path: '/study',
-      name: 'study',
-      component: study
-    },
-    {
-      path: '/mood',
-      name: 'mood',
-      component: mood
-    }
+    },study,mood
   ]
+})
+
+router.beforeEach((to, from, next) => {
+  // console.log(to);
+  // console.log(from);
+  next();
+  
 })
