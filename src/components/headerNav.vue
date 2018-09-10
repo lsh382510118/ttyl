@@ -22,12 +22,12 @@ export default {
     return {
       title: "TTYL",
       navList: [
-        { name: "学习作业", path: "/forTT", index: "0" },
-        { name: "每日心情", path: "/mood", index: "1" },
-        { name: "生活杂语", path: "/life", index: "2" },
-        { name: "学习历程", path: "/study", index: "3" },
-        { name: "工作分享", path: "/work", index: "4" },
-        { name: "联系方式", path: "/mine", index: "5" }
+        { name: "学习作业", path: "/forTT", index: "0",routerName:"{ name: forTT}" },
+        { name: "每日心情", path: "/mood", index: "1" ,routerName:"{ name: 'mood'}"},
+        { name: "生活杂语", path: "/life", index: "2" ,routerName:"{ name: 'life'}"},
+        { name: "学习历程", path: "/study", index: "3" ,routerName:"{ name: 'study'}"},
+        { name: "工作分享", path: "/work", index: "4" ,routerName:"{ name: 'work'}"},
+        { name: "联系方式", path: "/mine", index: "5" ,routerName:"{ name: 'mine'}"}
       ]
     };
   }
